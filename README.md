@@ -11,6 +11,13 @@ An access token can be created via Settings / Developer Settings / Personal acce
 
 Save the token in ~/.gittoken and chmod the file 0600.
 
+If you don't want to continually provide --organization "orgname" on the command line
+create a ~/.git-code.yaml file with the line:
+
+```yaml
+organization: orgname
+```
+
 ## Search / List Repositories
 
 The following will show any repositories within the Organization that contains
